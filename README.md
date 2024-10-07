@@ -17,8 +17,9 @@ To make changes in the program code, you will need to download the development v
 
 ## Compilng code and linking with the GTK-3 library
 We compile the file by the command:
-
-`gcc Aditor.c -o aditor \`pkg-config --cflags --libs gtk+-3.0\``
+```
+gcc Aditor.c -o aditor `pkg-config --cflags --libs gtk+-3.0`
+```
 
 We get the **aditor** executable file and run it by the command:
 
